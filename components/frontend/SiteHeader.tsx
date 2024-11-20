@@ -121,9 +121,13 @@ export const SiteHeader: FC = () => {
             </NavigationMenu>
           </div>
 
-          <div className="hidden md:flex items-center gap-4">
-            <Button variant="ghost">Log In</Button>
-            <Button>Sign Up</Button>
+          <div className="hidden md:flex items-center gap-3">
+            <Button variant="outline" size="sm" asChild>
+              <Link href="/login">Log In</Link>
+            </Button>
+            <Button size="sm" asChild>
+              <Link href="/contact-us">Book Demo</Link>
+            </Button>
           </div>
 
           <Sheet open={isOpen} onOpenChange={setIsOpen}>

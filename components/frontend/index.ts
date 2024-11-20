@@ -7,6 +7,9 @@ import { FeaturesGrid } from "./FeaturesGrid";
 import { SectionHeader } from "./SectionHeader";
 import { SiteFooter } from "./SiteFooter";
 import { PricingSection } from "./PricingSection";
+import { TabbedFeatures } from "./TabbedFeatures";
+
+import { Login } from "./auth";
 
 export {
   SiteHeader,
@@ -18,4 +21,7 @@ export {
   SectionHeader,
   SiteFooter,
   PricingSection,
+  TabbedFeatures,
 };
+
+export { Login };

@@ -8,6 +8,7 @@ import {
   HeroSection,
   LogoCloud,
   PricingSection,
+  TabbedFeatures,
 } from "@/components/frontend";
 
 const HomePage: FC = () => {
@@ -21,6 +22,8 @@ const HomePage: FC = () => {
         <DashboardPreview />
 
         <FeaturesGrid />
+
+        <TabbedFeatures />
 
         <PricingSection />
       </main>

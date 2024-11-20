@@ -9,7 +9,7 @@ import { SectionTitle } from "./SectionTitle";
 export const HeroSection: FC = () => {
   return (
     <>
-      <section className="relative w-full min-h-[80vh] flex items-center justify-center bg-gradient-to-br from-background to-muted">
+      <section className="relative w-full min-h-[70vh] flex items-center justify-center bg-gradient-to-br from-background to-muted">
         <div className="container px-4 md:px-6 flex flex-col items-center text-center gap-8">
           <SectionTitle title="Welcome to SchoolPro" />
 

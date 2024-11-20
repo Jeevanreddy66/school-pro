@@ -1,3 +1,6 @@
 import { Logo } from "./Logo";
+import { CustomCarousel } from "./CustomCarousel";
+import { TextInput } from "./TextInput";
+import { SubmitButton } from "./SubmitButton";
 
-export { Logo };
+export { Logo, CustomCarousel, TextInput, SubmitButton };
